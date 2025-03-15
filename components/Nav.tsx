@@ -13,7 +13,7 @@ export default function Nav ( { LoggedIn } : NavProps ){
     ];
 
     const nonLoggedInMenus = [
-        { name: "Iniciar sesión", href: "auth/Login" },
+        { name: "Iniciar sesión", href: "/login" },
         { name: "Registrarse", href: "/signup" }
     ];
 
